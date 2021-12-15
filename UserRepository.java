@@ -9,12 +9,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.spring.bioMedical.entity.User;
-/**
- * 
- * @author Soumyadip Chowdhury
- * @github soumyadip007
- *
- */
+
 @Repository("userRepository")
 public interface UserRepository extends CrudRepository<User, Long> {
 	
